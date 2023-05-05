@@ -1,0 +1,70 @@
+body{
+    background-image: linear-gradient(to right, #c49923,#806e14, #38371e );
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-attachment: fixed;
+    overflow: scroll;
+    
+    
+}
+main{
+    
+    border-radius: 10px;
+    width: 600px;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    display: flex;
+
+}
+
+.Meio{
+    padding: 7rem 0 0 8.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Meio h1{
+    font-size: 4rem;
+    
+}
+
+.Meio button{
+    background-color: #bda115;
+    padding: 1rem 3rem 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+   font-size: 1rem;
+   cursor: pointer;
+   transition: 0.3s;
+   margin: 5px;
+   text-align: center;
+   display: flex;
+   
+
+}
+
+.Meio button:hover{
+      background-color: #111;
+      transform: scaleY(1.2);
+}
+
+section{
+    padding-top: 7rem;
+}
+
+section h1{
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+
+}
+.left{
+    display: flex;
+    justify-content: center;
+}
+
